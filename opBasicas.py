@@ -29,3 +29,21 @@ print(d)
 print(d.sum())
 # print(d.sum(axis=1))
 # print(d.sum(axis=0))
+
+print(np.sqrt(d))
+# nan=NotasNumber, puede dar cuando toma una raíz negativa
+
+e=np.array([[5,-10,-1,20,28],[3,6,4,8,12]])
+f=np.array([[1,2,3,4,5],[6,7,8,9,10]])
+
+print(e)
+print(f)
+print(np.add(e,f))
+# add suma elementos de dos arreglos
+# np.round(), redondea los elementos a su entero más cercano
+# se puede determinar la cantidad de décimales a las que redondea
+# print(e.round(decimals=2)), redondea a 2 décimales
+# print(np.ceil(e)), redondea al entero superior
+# print(np.foor(e)), redondea al entero inferior
+# print(e.max())
+# print(np.gradient(a))
